@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const JOIN_URL = "https://www.sawyouatsinai.com/signup"; // TODO: confirm URL
@@ -60,8 +61,6 @@ const features = [
 ];
 
 const rabbonim = [
-  "Dayan CH Ehrentreu",
-  "Rabbi SH Weingarten",
   "Rabbi G Hager",
   "Rabbi E Zobin",
   "Manchester Beis Din",
@@ -71,40 +70,54 @@ export default function HomePage() {
   return (
     <>
       {/* ── Hero ── */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-cream-50 via-cream-100 to-blush-100 pt-16">
+      <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-cream-50 via-cream-100 to-blush-100 pt-16">
         {/* Decorative blobs */}
         <div className="absolute top-1/4 right-0 w-96 h-96 bg-blush-200 rounded-full opacity-30 blur-3xl translate-x-1/2" />
         <div className="absolute bottom-1/4 left-0 w-80 h-80 bg-gold-200 rounded-full opacity-20 blur-3xl -translate-x-1/3" />
 
-        <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <p className="text-sm font-semibold tracking-[0.25em] uppercase text-gold-600 mb-4">
-            A Global Network of Shadchanim
-          </p>
-          <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-navy-900 leading-tight mb-6">
-            It All Starts
-            <br />
-            <span className="text-blush-400">Here</span>
-          </h1>
-          <p className="text-lg sm:text-xl text-navy-600 max-w-2xl mx-auto mb-10 leading-relaxed">
-            SHIDDUCH.IM combines the warmth and wisdom of a personal shadchan
-            with modern technology — helping frum singles across Europe find
-            their bashert.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href={JOIN_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-navy-800 text-white font-semibold text-base hover:bg-navy-900 transition-colors shadow-lg"
-            >
-              Join Today
-            </a>
-            <Link
-              href="/shadchanim"
-              className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border-2 border-navy-700 text-navy-800 font-semibold text-base hover:bg-navy-50 transition-colors"
-            >
-              Meet Our Shadchanim
-            </Link>
+        <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16">
+          {/* Text */}
+          <div className="text-center lg:text-left">
+            <p className="text-sm font-semibold tracking-[0.25em] uppercase text-gold-600 mb-4">
+              A Global Network of Shadchanim
+            </p>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-navy-900 leading-tight mb-6">
+              It All Starts
+              <br />
+              <span className="text-blush-400">Here</span>
+            </h1>
+            <p className="text-lg sm:text-xl text-navy-600 max-w-2xl mx-auto lg:mx-0 mb-10 leading-relaxed">
+              SHIDDUCH.IM combines the warmth and wisdom of a personal shadchan
+              with modern technology — helping frum singles across Europe find
+              their bashert.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+              <a
+                href={JOIN_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-navy-800 text-white font-semibold text-base hover:bg-navy-900 transition-colors shadow-lg"
+              >
+                Join Today
+              </a>
+              <Link
+                href="/shadchanim"
+                className="inline-flex items-center justify-center px-8 py-3.5 rounded-full border-2 border-navy-700 text-navy-800 font-semibold text-base hover:bg-navy-50 transition-colors"
+              >
+                Meet Our Shadchanim
+              </Link>
+            </div>
+          </div>
+
+          {/* Chuppah image */}
+          <div className="relative h-72 sm:h-96 lg:h-[580px] rounded-3xl overflow-hidden shadow-2xl">
+            <Image
+              src="/Outdoor chupa.jpg"
+              alt="A beautiful chuppah"
+              fill
+              className="object-cover"
+              priority
+            />
           </div>
         </div>
 
