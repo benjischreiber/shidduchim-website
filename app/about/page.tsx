@@ -151,6 +151,21 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* ── Rabbinic Endorsements ── */}
+      <section className="bg-white py-10 px-4">
+        <div className="max-w-xl mx-auto text-center">
+          <p className="text-sm text-navy-500 italic leading-relaxed mb-3">
+            &ldquo;Combining new technology with our traditional values, I highly
+            recommend Shidduch.im as an effective and kosher way to find
+            one&rsquo;s soulmate.&rdquo;
+          </p>
+          <p className="text-xs font-medium text-navy-600">Rabbi E Zobin &mdash; Ner Yisrael</p>
+          <p className="text-xs text-navy-400 mt-2">
+            Also endorsed by Rabbi G Hager &middot; Manchester Beis Din
+          </p>
+        </div>
+      </section>
+
       {/* ── CTA ── */}
       <section className="bg-blush-50 py-16 px-4">
         <div className="max-w-2xl mx-auto text-center">

@@ -60,12 +60,6 @@ const features = [
   },
 ];
 
-const rabbonim = [
-  "Rabbi G Hager",
-  "Rabbi E Zobin",
-  "Manchester Beis Din",
-];
-
 export default function HomePage() {
   return (
     <>
@@ -230,43 +224,6 @@ export default function HomePage() {
                 <p className="text-sm text-navy-400 font-medium">— {t.attribution}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Rabbonim Endorsements ── */}
-      <section className="bg-cream-200 py-20 px-4">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm font-semibold tracking-widest uppercase text-gold-600 mb-3">
-            Rabbinic Endorsements
-          </p>
-          <h2 className="text-3xl lg:text-4xl font-bold text-navy-900 mb-4">
-            Supported by Leading Rabbonim
-          </h2>
-          <p className="text-navy-600 mb-10">
-            We are grateful to the below Rabbonim and Dayonim for giving
-            SHIDDUCH.IM their full support and encouragement.
-          </p>
-          <div className="flex flex-wrap justify-center gap-3 mb-12">
-            {rabbonim.map((name) => (
-              <span
-                key={name}
-                className="px-4 py-2 rounded-full bg-white border border-cream-300 text-navy-700 text-sm font-medium shadow-sm"
-              >
-                {name}
-              </span>
-            ))}
-          </div>
-          <div className="bg-white rounded-2xl p-8 max-w-2xl mx-auto shadow-sm border border-cream-300">
-            <p className="text-navy-700 italic leading-relaxed mb-4">
-              &ldquo;Combining new technology with our traditional values, I
-              highly recommend Shidduch.im as an effective and kosher way to
-              find one&rsquo;s soulmate. Signing up gives you access to the
-              best Shadchanim, the broadest database and the clearest criteria
-              — to find the person that is a match for you!&rdquo;
-            </p>
-            <p className="font-bold text-navy-900">Rabbi E Zobin</p>
-            <p className="text-sm text-navy-400">Ner Yisrael</p>
           </div>
         </div>
       </section>
