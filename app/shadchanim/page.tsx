@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -12,6 +13,7 @@ type Shadchan = {
   location: string;
   bio: string;
   accepts: string;
+  photo?: string;
 };
 
 const shadchanim: Shadchan[] = [
@@ -27,6 +29,7 @@ const shadchanim: Shadchan[] = [
     location: "Jerusalem",
     bio: "Linda has been a successful shadchanit for over 22 years. She made aliya from Golders Green to Jerusalem and continues to be very active. She works mostly with the more yeshivish and modern orthodox machmir end of the religious spectrum, and also works with baalei teshuva.",
     accepts: "Singles aged 18–30 from the UK, Europe and Jerusalem (English-speaking).",
+    photo: "/shadchanim/linda.jpeg",
   },
   {
     name: "Judy Minsky",
@@ -64,6 +67,7 @@ const shadchanim: Shadchan[] = [
     location: "London",
     bio: "Tovah is a mother and grandmother who is passionate about helping people find their other half in her spare time. She focuses mostly on baalei teshuva and modern orthodox singles in the UK and likes to meet in person.",
     accepts: "Singles aged 20–40 from anywhere, subject to meeting in person.",
+    photo: "/shadchanim/tova.jpeg",
   },
   {
     name: "Dini Sharman",
@@ -160,13 +164,23 @@ export default function ShadchanimPage() {
             >
               {/* Avatar */}
               <div className="flex items-center gap-4 mb-4">
-                <div className="w-12 h-12 rounded-full bg-blush-200 flex items-center justify-center shrink-0">
-                  <span
-                    className="text-sm font-bold text-navy-700"
-                    style={{ fontFamily: "var(--font-serif)" }}
-                  >
-                    {initials(s.name)}
-                  </span>
+                <div className="w-12 h-12 rounded-full bg-blush-200 flex items-center justify-center shrink-0 overflow-hidden">
+                  {s.photo ? (
+                    <Image
+                      src={s.photo}
+                      alt={s.name}
+                      width={48}
+                      height={48}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <span
+                      className="text-sm font-bold text-navy-700"
+                      style={{ fontFamily: "var(--font-serif)" }}
+                    >
+                      {initials(s.name)}
+                    </span>
+                  )}
                 </div>
                 <div>
                   <h3 className="font-bold text-navy-900 leading-tight">{s.name}</h3>
