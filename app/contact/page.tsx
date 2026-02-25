@@ -2,9 +2,7 @@
 
 import { useState } from "react";
 
-// TODO: Create a Formspree account at https://formspree.io and replace this endpoint.
-// The form will email responses to T.Shapiro@me.com once configured.
-const FORMSPREE_ENDPOINT = "https://formspree.io/f/REPLACE_ME";
+const FORMSPREE_ENDPOINT = "https://formspree.io/f/mbdawrky";
 
 const shadchanOptions = [
   "General enquiry",
@@ -82,33 +80,7 @@ export default function ContactPage() {
             </div>
 
             <div className="space-y-4">
-              <div className="flex items-start gap-3">
-                <div className="w-8 h-8 rounded-full bg-blush-100 flex items-center justify-center shrink-0 mt-0.5">
-                  <svg className="w-4 h-4 text-blush-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-xs text-navy-400 font-medium uppercase tracking-wide mb-0.5">Email</p>
-                  <a href="mailto:support@shidduch.im" className="text-navy-700 hover:text-gold-600 text-sm transition-colors">
-                    support@shidduch.im
-                  </a>
-                </div>
-              </div>
 
-              <div className="flex items-start gap-3">
-                <div className="w-8 h-8 rounded-full bg-blush-100 flex items-center justify-center shrink-0 mt-0.5">
-                  <svg className="w-4 h-4 text-blush-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                  </svg>
-                </div>
-                <div>
-                  <p className="text-xs text-navy-400 font-medium uppercase tracking-wide mb-0.5">Phone</p>
-                  <a href="tel:+447971572998" className="text-navy-700 hover:text-gold-600 text-sm transition-colors">
-                    +44 7971 572998
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -209,7 +181,7 @@ export default function ContactPage() {
 
                 {status === "error" && (
                   <p className="text-sm text-red-600">
-                    Something went wrong. Please try again or email us directly at support@shidduch.im.
+                    Something went wrong. Please try again.
                   </p>
                 )}
 

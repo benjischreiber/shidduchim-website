@@ -68,22 +68,6 @@ export default function Footer() {
               Get in Touch
             </h3>
             <ul className="space-y-3 text-sm text-navy-200">
-              <li>
-                <a
-                  href="mailto:support@shidduch.im"
-                  className="hover:text-white transition-colors"
-                >
-                  support@shidduch.im
-                </a>
-              </li>
-              <li>
-                <a
-                  href="tel:+447971572998"
-                  className="hover:text-white transition-colors"
-                >
-                  +44 7971 572998
-                </a>
-              </li>
             </ul>
           </div>
         </div>

@@ -54,15 +54,7 @@ export default function AboutPage() {
             </p>
             <p>
               We hope you will find us professional and dedicated. If you have
-              questions, suggestions or issues, please do be in touch by
-              e-mailing{" "}
-              <a
-                href="mailto:support@shidduch.im"
-                className="text-gold-600 hover:text-gold-700 underline"
-              >
-                support@shidduch.im
-              </a>{" "}
-              or by using our{" "}
+              questions, suggestions or issues, please do be in touch using our{" "}
               <Link
                 href="/contact"
                 className="text-gold-600 hover:text-gold-700 underline"
