@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@theme {
+  /* Cream palette */
+  --color-cream-50: #FEFDF9;
+  --color-cream-100: #FAF7F0;
+  --color-cream-200: #F4EDE0;
+  --color-cream-300: #EADEC8;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  /* Gold palette */
+  --color-gold-200: #F0DFA0;
+  --color-gold-300: #E8CF78;
+  --color-gold-400: #D4AC3E;
+  --color-gold-500: #B8901E;
+  --color-gold-600: #9A7210;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Blush palette */
+  --color-blush-50: #FDF5F7;
+  --color-blush-100: #F9E8ED;
+  --color-blush-200: #F2D2DB;
+  --color-blush-300: #E5B3C0;
+  --color-blush-400: #D48EA0;
+
+  /* Navy palette */
+  --color-navy-50: #F0F2F8;
+  --color-navy-100: #D8DEEE;
+  --color-navy-200: #B0BEDD;
+  --color-navy-300: #7E97C8;
+  --color-navy-400: #4E70B0;
+  --color-navy-500: #2A4F94;
+  --color-navy-600: #1B3A7A;
+  --color-navy-700: #122860;
+  --color-navy-800: #0C1C47;
+  --color-navy-900: #071230;
+  --color-navy-950: #040B20;
+
+  /* Typography */
+  --font-serif: var(--font-playfair), Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-cream-100);
+  color: var(--color-navy-900);
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-serif);
 }
