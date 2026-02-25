@@ -33,7 +33,7 @@ export default function AboutPage() {
             <p>
               We are a group of volunteers who have come together with one aim:
               to help frum singles find their life partner. SHIDDUCH.IM is built
-              as a network, so that every single has a named shadchan — and the
+              as a network, so that every single can have a named shadchan — and the
               shadchanim share all their information using sophisticated,
               purpose-built software developed in the USA over the last ten
               years for a large shidduch organisation called{" "}
@@ -139,7 +139,7 @@ export default function AboutPage() {
           <p className="text-navy-200 leading-relaxed mb-4">
             SHIDDUCH.IM is the European branch of the US-based shidduch
             platform Saw You At Sinai — an ever-growing database of over 30,000
-            frum singles, with a constant stream of newly engaged couples every
+            Jewish singles, with a constant stream of newly engaged couples every
             week.
           </p>
           <p className="text-navy-200 leading-relaxed">

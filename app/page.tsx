@@ -50,7 +50,7 @@ const features = [
   {
     title: "Global Network",
     description:
-      "Connected to the worldwide SawYouAtSinai database of over 30,000 frum singles.",
+      "Connected to the worldwide SawYouAtSinai database of over 30,000 Jewish singles.",
   },
   {
     title: "Your Privacy",
@@ -128,7 +128,7 @@ export default function HomePage() {
           <p className="text-lg text-navy-600 leading-relaxed">
             SHIDDUCH.IM brings together a network of dedicated, community-based
             shadchanim and gives them access to a sophisticated shared platform,
-            so that every single has a named shadchan working personally for
+            so that every single can have a named shadchan working personally for
             them — with the breadth of a worldwide database behind them.
           </p>
         </div>
@@ -275,7 +275,7 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-gold-500 text-white font-semibold text-base hover:bg-gold-600 transition-colors shadow-lg"
             >
-              Join Today — It&rsquo;s Free
+              Join Today
             </a>
             <Link
               href="/about"
