@@ -27,8 +27,8 @@ const shadchanim: Shadchan[] = [
   {
     name: "Linda Sireling",
     location: "Jerusalem",
-    bio: "Linda has been a successful shadchanit for over 22 years. She made aliya from Golders Green to Jerusalem and continues to be very active. She works mostly with the more yeshivish and modern orthodox machmir end of the religious spectrum, and also works with baalei teshuva.",
-    accepts: "Singles aged 18–30 from the UK, Europe and Jerusalem (English-speaking).",
+    bio: "Linda has been doing shidduchim for over 45 years. From yeshivish to modern orthodox machmir, including baalei teshuva. She works online with people in the UK and Anglos in Israel.",
+    accepts: "Singles aged 18–45 from the UK and Anglos in Israel.",
     photo: "/shadchanim/linda.jpeg",
   },
   {
