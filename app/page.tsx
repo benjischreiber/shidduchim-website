@@ -112,7 +112,7 @@ export default function HomePage() {
           {/* Chuppah image */}
           <div className="relative h-72 sm:h-96 lg:h-[580px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
-              src="/Outdoor chupa.jpg"
+              src="/chupa2.png"
               alt="A beautiful chuppah"
               fill
               className="object-cover"
