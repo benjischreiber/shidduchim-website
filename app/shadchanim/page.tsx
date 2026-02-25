@@ -20,9 +20,9 @@ const shadchanim: Shadchan[] = [
   {
     name: "Suzy Goldberg",
     location: "London",
-    bio: "Suzy is a mother and grandmother and a teacher of Jewish Studies at Yavneh College. She teaches kallot and Hebrew Reading to adults. She fell into matchmaking almost 30 years ago when a simple introduction between two friends resulted in their getting married — and she hasn't looked back since!",
-    accepts:
-      "Singles of any age from pretty much anywhere in the world, except the USA.",
+    bio: "Suzy is a mother and grandmother and Kodesh teacher for many years. She also teaches kallot and Hebrew Reading to adults. She fell into matchmaking almost 30 years ago when a simple introduction between two friends resulted in their getting married — and she hasn't looked back since!",
+    accepts: "Singles of any age from pretty much anywhere in the world, except the USA.",
+    photo: "/shadchanim/suzy.jpeg",
   },
   {
     name: "Linda Sireling",
