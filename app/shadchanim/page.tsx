@@ -62,7 +62,7 @@ const shadchanim: Shadchan[] = [
   {
     name: "Tovah Shapiro",
     location: "London",
-    bio: "Tovah, originally from Leeds, lives in Golders Green with her six children. She started matchmaking 15 years ago, focusing on the baalei teshuva and modern frum world. Her Shabbos table is regularly filled with singles from all over the world — and many happy couples have met there.",
+    bio: "Tovah is a mother and grandmother who is passionate about helping people find their other half in her spare time. She focuses mostly on baalei teshuva and modern orthodox singles in the UK and likes to meet in person.",
     accepts: "Singles aged 20–40 from anywhere, subject to meeting in person.",
   },
   {
