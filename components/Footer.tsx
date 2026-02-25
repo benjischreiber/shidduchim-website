@@ -67,8 +67,15 @@ export default function Footer() {
               style={{ fontFamily: "var(--font-sans)" }}>
               Get in Touch
             </h3>
-            <ul className="space-y-3 text-sm text-navy-200">
-            </ul>
+            <p className="text-sm text-navy-200 leading-relaxed mb-3">
+              Have a question? We&rsquo;d love to hear from you.
+            </p>
+            <Link
+              href="/contact"
+              className="inline-block text-sm font-semibold text-gold-400 hover:text-gold-300 transition-colors"
+            >
+              Contact Us →
+            </Link>
           </div>
         </div>
 
