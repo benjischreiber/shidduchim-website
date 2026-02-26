@@ -223,7 +223,7 @@ export default function ShadchanimPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://www.sawyouatsinai.com/signup" // TODO: confirm URL
+              href="http://www.sawyouatsinai.com/MemberSignup.aspx?Partner=Shidduchim"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-gold-500 text-white font-semibold hover:bg-gold-600 transition-colors"

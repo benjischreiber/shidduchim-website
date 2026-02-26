@@ -15,10 +15,9 @@ const navLinks = [
   { href: "/contact", label: "Contact" },
 ];
 
-// TODO: Replace these with the real SYAS URLs
 const MEMBER_LOGIN_URL = "https://www.sawyouatsinai.com/login";
 const SHADCHAN_LOGIN_URL = "https://www.sawyouatsinai.com/shadchan";
-const JOIN_URL = "https://www.sawyouatsinai.com/signup";
+const JOIN_URL = "http://www.sawyouatsinai.com/MemberSignup.aspx?Partner=Shidduchim";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);

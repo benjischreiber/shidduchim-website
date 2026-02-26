@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Learn about SHIDDUCH.IM — a volunteer-run network of shadchanim helping frum singles across the UK and Europe find their bashert.",
 };
 
-const JOIN_URL = "https://www.sawyouatsinai.com/signup"; // TODO: confirm URL
+const JOIN_URL = "http://www.sawyouatsinai.com/MemberSignup.aspx?Partner=Shidduchim";
 
 export default function AboutPage() {
   return (

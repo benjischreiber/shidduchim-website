@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const JOIN_URL = "https://www.sawyouatsinai.com/signup"; // TODO: confirm URL
+const JOIN_URL = "http://www.sawyouatsinai.com/MemberSignup.aspx?Partner=Shidduchim";
 
 const testimonials = [
   {
@@ -71,7 +71,7 @@ export default function HomePage() {
 
         <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center py-16">
           {/* Text */}
-          <div className="text-center lg:text-left">
+          <div className="order-2 lg:order-1 text-center lg:text-left">
             <p className="text-sm font-semibold tracking-[0.25em] uppercase text-gold-600 mb-4">
               A Global Network of Shadchanim
             </p>
@@ -104,7 +104,7 @@ export default function HomePage() {
           </div>
 
           {/* Chuppah image */}
-          <div className="relative h-72 sm:h-96 lg:h-[580px] rounded-3xl overflow-hidden shadow-2xl">
+          <div className="order-1 lg:order-2 relative h-72 sm:h-96 lg:h-[580px] rounded-3xl overflow-hidden shadow-2xl">
             <Image
               src="/chupa2.png"
               alt="A beautiful chuppah"
