@@ -78,8 +78,8 @@ const shadchanim: Shadchan[] = [
   {
     name: "Aviva Rowe",
     location: "London",
-    bio: "Aviva is married and the mother of four girls and two sons-in-law. She was previously a teacher and is now a therapist. Aviva has been involved in making shidduchim for a number of years — there are few things that give her greater joy than being the shaliach of a new Choson and Kallah. She is mainly involved with middle-of-the-road MO to Yeshivish singles.",
-    accepts: "Singles of all ages, particularly 19–35, from the UK.",
+    bio: "Aviva is married and the mother of four girls and two sons-in-law. Aviva was previously a teacher and is now a therapist. Aviva has been involved in making shidduchim for a number of years. There are few things that give Aviva greater joy than being the shaliach of a new Choson and Kallah. Aviva is mainly involved with middle of the road MO to Yeshivish.",
+    accepts: "Singles in the UK of all ages, particularly 19–35.",
   },
   {
     name: "Ariella Hacmoun",
