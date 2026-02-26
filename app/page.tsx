@@ -3,19 +3,6 @@ import Link from "next/link";
 
 const JOIN_URL = "http://www.sawyouatsinai.com/MemberSignup.aspx?Partner=Shidduchim";
 
-const testimonials = [
-  {
-    quote:
-      "I was really skeptical when I first signed up — but now I'm married to the most wonderful girl! Try it!",
-    attribution: "A happy member",
-  },
-  {
-    quote:
-      "We are so grateful to Shidduch.im for helping us find each other! We recommend it to all our friends!",
-    attribution: "A happy couple",
-  },
-];
-
 const steps = [
   {
     number: "01",
@@ -192,36 +179,6 @@ export default function HomePage() {
                 <div className="w-8 h-1 bg-gold-400 rounded-full mb-4" />
                 <h3 className="text-lg font-bold text-white mb-2">{feature.title}</h3>
                 <p className="text-navy-200 text-sm leading-relaxed">{feature.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── Testimonials ── */}
-      <section className="bg-blush-50 py-20 px-4">
-        <div className="max-w-5xl mx-auto">
-          <div className="text-center mb-14">
-            <p className="text-sm font-semibold tracking-widest uppercase text-gold-600 mb-3">
-              Success Stories
-            </p>
-            <h2 className="text-4xl lg:text-5xl font-bold text-navy-900">
-              Some of Our Couples
-            </h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {testimonials.map((t, i) => (
-              <div
-                key={i}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-blush-100"
-              >
-                <svg className="w-8 h-8 text-blush-300 mb-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
-                </svg>
-                <p className="text-navy-700 text-lg italic leading-relaxed mb-4">
-                  &ldquo;{t.quote}&rdquo;
-                </p>
-                <p className="text-sm text-navy-400 font-medium">— {t.attribution}</p>
               </div>
             ))}
           </div>
