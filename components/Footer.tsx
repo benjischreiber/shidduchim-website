@@ -14,9 +14,9 @@ export default function Footer() {
               SHIDDUCH.IM
             </p>
             <p className="text-sm text-navy-200 leading-relaxed">
-              A global network of dedicated shadchanim, combining timeless
-              tradition with modern technology to help frum singles across
-              Europe find their bashert.
+              A dedicated network of shadchanim helping frum singles across
+              the UK and Europe find their bashert — with the reach of a
+              worldwide database behind them.
             </p>
             <p className="mt-4 text-xs text-navy-400">
               In partnership with{" "}
