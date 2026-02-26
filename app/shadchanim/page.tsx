@@ -104,10 +104,10 @@ const shadchanim: Shadchan[] = [
   },
   {
     name: "Liza Taitz",
-    location: "TBC", // TODO: confirm location
-    // TODO: Add bio for Liza Taitz
-    bio: "",
-    accepts: "",
+    location: "Hendon, London",
+    bio: "Liza is a mum and Educational Consultant who lives in Hendon. She was a Head of Kodesh and Assistant Headteacher for many years. Liza is also a Kallah teacher. She made her first match in 2020 and is passionate about helping people find their besherts.",
+    accepts: "Singles aged 20–45 from the UK.",
+    photo: "/shadchanim/liza.jpeg",
   },
 ];
 
